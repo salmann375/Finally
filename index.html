@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>FINALLY!</title>
+  <script src="js/show.js"></script>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/one-page-wonder.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+
+    <div class="container">
+      <a class="navbar-brand" href="#">FINALLY!</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        
+        <ul class="navbar-nav ml-auto">
+            
+          </li>
+          <li class="nav-item dropdown text-white">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-question"></i>
+              Help
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+              <a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
+            </div>
+          
+          </li>
+          <li class="nav-item dropdown text-white">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-user"></i>
+              Admin
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+              <a class="dropdown-item">Login
+
+              <form action="admin_proses_login.php" method="POST">
+               
+          <div class="form-group">
+            <div class="form-label-group">
+              
+              <label for="username">Username</label>
+              <input type="varchar" name="username" id="username" class="form-control" placeholder="Username" required="required" autofocus="autofocus">
+              
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-label-group">
+
+              <label for="inputPassword">Password</label>
+              <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required="required">
+              
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" onclick="myFunction()">Show Password
+              </label>
+            </div>
+          </div>
+          <a class="btn btn-primary btn-block" href="home.html">Login</a>
+        </form></a>
+            </div>
+          </li>
+             
+      </div>
+    </div>
+  </nav>
+
+  <header class="masthead" style="background-image: url('images/tp.jpg'); width: 100%; height: auto;">
+    <div class="masthead-content">
+      <div class="container">
+        <div class="bg-circle-1 bg-circle"></div>
+   
+ 
+        <div class="row">
+          <div class="col-sm">
+        <h1 class="masthead-heading mb-0">FINALLY!</h1>
+        <h2 class="masthead-subheading mb-0">Lost & Found IPB</h2>
+        <a href="register.html" class="btn btn-primary btn-xl rounded-pill mt-5">Register Now</a>
+          </div>
+          <div class="col-sm">
+            <div class="card" style="width:500px">
+  <img class="card-img-top" src="img/blurred-image-1.jpg" alt="Card image">
+  <div class="card-img-overlay">
+    <h4 class="card-title">Login</h4>
+    <form action="proses_login_user.php" method="POST"> 
+          <div class="form-group">
+            <div class="form-label-group">
+              
+              <label for="uname">Username</label>
+              <input type="varchar" id="uname" class="form-control" placeholder="Username" required="required" autofocus="autofocus">
+              
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-label-group">
+
+              <label for="inputPassword">Password</label>
+              <input type="password" name="password "id="inputPassword" class="form-control" placeholder="Password" required="required">
+              
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" onclick="myFunction()">Show Password
+              </label>
+            </div>
+          </div>
+          <a class="btn btn-primary btn-block" href="home.html">Login</a>
+        </form>
+  </div>
+</div>
+      </div>
+    </div>
+      </div>
+      </div>
+    </div>
+    
+  </header>
+ 
+
+  <!-- Footer -->
+  <footer class="py-5 bg-black">
+    <div class="container">
+      <p class="m-0 text-center text-white small">Copyright &copy; Finally! 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
